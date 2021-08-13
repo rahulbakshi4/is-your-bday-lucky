@@ -37,8 +37,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 70vh;
-  margin-bottom: 1rem;
+  height: 85vh;
 }
 
 #toast {
@@ -138,5 +137,9 @@ footer li {
     margin: 1rem auto;
     text-align: center;
     font-size: 3rem;
+  }
+  #message {
+    font-size: 2rem;
+    padding: 0.75rem;
   }
 }

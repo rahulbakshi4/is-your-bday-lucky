@@ -22,9 +22,7 @@ export default function App() {
           "block"
         ]);
       } else {
-        setIslucky(
-          "Sorry, Your birthdate ain't so lucky!!!  Here is your cake"
-        );
+        setIslucky("Sorry, Your birthday ain't so lucky!!!  Here is your cake");
         setGif([
           "https://media.giphy.com/media/frBakvqDuXYJQzgDDb/giphy-downsized.gif",
           "block"
