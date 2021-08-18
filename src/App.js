@@ -34,6 +34,37 @@ export default function App() {
   };
   return (
     <div className="App">
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://github.com/rahulbakshi4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://twitter.com/rahul_bakshi4"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/rahul-bakshi-552071189/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <header>
         <h1> Do you think your Birthday is lucky? </h1>
         <p id="head-content">
@@ -82,47 +113,6 @@ export default function App() {
       </div>
       <p id="message">{islucky}</p>
       <img src={`${gif[0]}`} style={{ display: `${gif[1]}` }} alt="gif"></img>
-
-      <footer>
-        <ul className="icons">
-          <li>
-            <a href="https://github.com/rahulbakshi4">
-              <img
-                src="https://res.cloudinary.com/rahulb4/image/upload/v1628815036/Github_gi8ba2.png"
-                alt="Github"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/rahul-bakshi-552071189/">
-              <img
-                src="https://res.cloudinary.com/rahulb4/image/upload/v1628815036/Linkedin_rsbmtx.png"
-                alt="LinkedIn"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="mailto:rahulbakshi3@gmail.com">
-              <img
-                src="https://res.cloudinary.com/rahulb4/image/upload/v1628815036/gmaillogo_jocqol.png"
-                alt="Gmail"
-              />
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/rahul_bakshi4">
-              <img
-                src="https://res.cloudinary.com/rahulb4/image/upload/v1628815036/Twitter_or4vsi.svg"
-                alt="Twitter"
-              />
-            </a>
-          </li>
-        </ul>
-        Made with &#10084; by{" "}
-        <a id="info" href="https://rahulbakshi.xyz">
-          Rahul Bakshi
-        </a>
-      </footer>
     </div>
   );
 }
